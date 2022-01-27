@@ -1,0 +1,22 @@
+@import './variables';
+@import './mixins';
+
+@import './../blocks/page';
+@import './../blocks/header';
+@import './../blocks/header__logo';
+@import './../blocks/header__menu';
+@import './../blocks/header__link';
+
+@import './../blocks/head';
+@import './../blocks/head__title';
+@import './../blocks/head__text';
+@import './../blocks/head__link';
+
+@import './../blocks/composition';
+@import './../blocks/composition__main';
+@import './../blocks/composition__title';
+@import './../blocks/composition__subtitle';
+@import './../blocks/composition__text';
+@import './../blocks/composition__rules';
+@import './../blocks/composition__rules-text';
+

@@ -1,0 +1,9 @@
+.head__link {
+  @include font(18px, 28px);
+  text-decoration: none;
+  border: 2px solid #000;
+  padding: 11px 67px 10px 68px;
+  box-sizing: border-box;
+  border-radius: 22px;
+  background-color: #fff;
+}
