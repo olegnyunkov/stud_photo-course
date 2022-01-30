@@ -1,0 +1,5 @@
+.sign {
+  @include section;
+  background-color: $headColor;
+  justify-content: flex-start;
+}

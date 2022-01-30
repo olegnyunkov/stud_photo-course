@@ -1,0 +1,10 @@
+.header__logo {
+  transition-property: transform;
+  transition-duration: 5s;
+  transition-timing-function: ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: rotate(-360deg);
+  }
+}

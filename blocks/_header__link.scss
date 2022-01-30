@@ -1,6 +1,9 @@
 .header__link {
-  list-style-type: none;
   text-decoration: none;
   margin-left: 40px;
   @include font(16px, 24px, #fff);
+
+  &:hover {
+    font-weight: 700;
+  }
 }
