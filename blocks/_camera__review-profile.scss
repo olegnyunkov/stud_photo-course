@@ -1,4 +1,4 @@
 .camera__review-profile {
-  @include font(14px, 24px, #fff);
+  @include font(14px, 24px, $whiteColor);
   margin: 0;
 }

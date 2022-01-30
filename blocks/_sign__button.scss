@@ -12,6 +12,6 @@
   border-left: none;
 
   &:hover {
-    font-weight: 500;
+    font-weight: $hoverFontWeight;
   }
 }

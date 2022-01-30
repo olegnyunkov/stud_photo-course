@@ -1,4 +1,4 @@
 .camera__review-person {
-  @include font(18px, 28px, #fff);
+  @include font(18px, 28px, $whiteColor);
   margin: 0 0 10px;
 }

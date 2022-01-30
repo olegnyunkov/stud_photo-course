@@ -1,4 +1,4 @@
 .camera__subtitle {
-  @include font(122px, 122px, #fff);
+  @include font(122px, 122px, $whiteColor);
   margin: 0 0 359px;
 }

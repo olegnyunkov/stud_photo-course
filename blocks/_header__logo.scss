@@ -7,4 +7,14 @@
   &:hover {
     transform: rotate(-360deg);
   }
+
+  @media (max-width: $tabScreen) {
+    width: 36px;
+    height: 36px;
+  }
+
+  @media (max-width: $mobScreen) {
+    width: 30px;
+    height: 30px;
+  }
 }

@@ -6,9 +6,9 @@
   padding: 10px 62px;
   box-sizing: border-box;
   border-radius: 22px;
-  background-color: #fff;
+  background-color: $whiteColor;
 
   &:hover {
-    font-weight: 500;
+    font-weight: $hoverFontWeight;
   }
 }

@@ -3,4 +3,15 @@
   display: flex;
   justify-content: space-between;
   padding: 22px 50px;
+  align-items: center;
+
+  @media (max-width: $tabScreen) {
+    max-width: $tabScreen;
+  }
+
+  @media (max-width: $mobScreen) {
+    max-width: $mobScreen;
+  }
 }
+
+

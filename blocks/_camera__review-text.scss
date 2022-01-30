@@ -1,5 +1,5 @@
 .camera__review-text {
-  @include font(43px, 43px, #fff);
+  @include font(43px, 43px, $whiteColor);
   margin: 180px 0 60px;
   max-width: 526px;
 }
