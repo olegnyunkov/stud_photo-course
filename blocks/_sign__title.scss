@@ -2,4 +2,17 @@
   @include font(120px, 120px, $whiteColor);
   max-width: 685px;
   margin: 0 0 120px 50px;
+
+  @media screen and (max-width: $tabScreen) {
+    margin: 0 0 190px;
+    @include font(100px, 100px, $whiteColor);
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(48px, 50px, $whiteColor);
+    max-width: 274px;
+    border-top: 1px solid #fff;
+    margin: 20px 0 200px 0;
+    padding-top: 20px;
+  }
 }

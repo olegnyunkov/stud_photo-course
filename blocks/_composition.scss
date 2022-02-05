@@ -1,3 +1,12 @@
 .composition {
   background-color: #FFCE00;
+  padding: $blockPadding;
+
+  @media screen and (max-width: $tabScreen) {
+    padding: $tabBlockPadding;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    padding: $mobBlockPadding;
+  }
 }

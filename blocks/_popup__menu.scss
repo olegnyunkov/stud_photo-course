@@ -1,17 +1,12 @@
-.header {
+.popup__menu {
+  padding: 28px 40px;
   background-color: $headColor;
   display: flex;
   justify-content: space-between;
-  padding: 22px 50px;
   align-items: center;
-
-  @media screen and (max-width: $tabScreen) {
-    padding: 24px 40px;
-  }
 
   @media screen and (max-width: $mobScreen) {
     padding: $mobBlockPadding;
   }
-}
-
+  }
 

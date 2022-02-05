@@ -9,4 +9,13 @@
   font-family: inherit;
   padding-left: 20px;
   cursor: pointer;
+
+  @media screen and (max-width: $tabScreen) {
+    margin: 0;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    width: 175px;
+    @include font(11px, 24px);
+  }
 }

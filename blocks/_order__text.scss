@@ -1,4 +1,16 @@
 .order__text {
   @include font(18px, 28px);
-  margin: 336px 0 0 312px;
+  margin: 24px 0 145px 312px;
+  grid-row: 3/4;
+  max-width: 380px;
+
+  @media screen and (max-width: $tabScreen) {
+    grid-row: 4/5;
+    margin: 0 0 60px 0;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(14px, 18px);
+    margin: 0 0 30px 0;
+  }
 }

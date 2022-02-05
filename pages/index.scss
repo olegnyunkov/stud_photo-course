@@ -10,7 +10,6 @@
 @import './../blocks/header__menubtn';
 
 @import './../blocks/head';
-@import './../blocks/head__info';
 @import './../blocks/head__title';
 @import './../blocks/head__text';
 @import './../blocks/head__link';
@@ -23,6 +22,8 @@
 @import './../blocks/composition__text';
 @import './../blocks/composition__rules';
 @import './../blocks/composition__rules-text';
+@import './../blocks/composition__image';
+@import './../blocks/composition__photo';
 
 @import './../blocks/camera';
 @import './../blocks/camera__title';
@@ -31,11 +32,14 @@
 @import './../blocks/camera__review-text';
 @import './../blocks/camera__review-person';
 @import './../blocks/camera__review-profile';
+@import './../blocks/camera__review-profile-bordered';
+@import './../blocks/camera__image';
+@import './../blocks/camera__photo';
 
 @import './../blocks/order';
 @import './../blocks/order__title';
 @import './../blocks/order__subtitle';
-@import './../blocks/order__info';
+@import './../blocks/order__image';
 @import './../blocks/order__text';
 @import './../blocks/order__link';
 
@@ -48,3 +52,11 @@
 
 @import './../blocks/footer';
 @import './../blocks/footer__text';
+
+@import './../blocks/popup';
+@import './../blocks/popup__opened';
+@import './../blocks/popup__menu';
+@import './../blocks/popup__links';
+@import './../blocks/popup__link';
+@import './../blocks/popup__logo';
+@import './../blocks/popup__closebtn';

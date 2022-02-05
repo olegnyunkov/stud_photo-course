@@ -2,4 +2,13 @@
   @include font(20px, 28px);
   max-width: 469px;
   margin: 0 0 170px;
+
+  @media screen and (max-width: $tabScreen) {
+    margin: 60px 0;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(14px, 18px);
+    margin: 60px 0 30px 0;
+  }
 }

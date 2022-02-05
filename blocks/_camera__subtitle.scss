@@ -1,4 +1,14 @@
 .camera__subtitle {
   @include font(122px, 122px, $whiteColor);
   margin: 0 0 359px;
+  max-width: 617px;
+
+  @media screen and (max-width: $tabScreen) {
+    margin: 0 0 60px;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(48px, 56px, $whiteColor);
+
+  }
 }

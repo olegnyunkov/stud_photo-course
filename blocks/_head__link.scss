@@ -7,8 +7,15 @@
   box-sizing: border-box;
   border-radius: 22px;
   background-color: $whiteColor;
+  max-width: 228px;
 
   &:hover {
     font-weight: $hoverFontWeight;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(14px, 28px);
+    max-width: 169px;
+    padding: 6px 48px;
   }
 }

@@ -1,3 +1,8 @@
 .composition__rules {
-  @include section;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: $tabScreen) {
+    flex-direction: column;
+  }
 }

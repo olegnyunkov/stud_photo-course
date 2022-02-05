@@ -1,4 +1,9 @@
 .footer__text {
   @include font(15px, 24px, $whiteColor);
   font-weight: 700;
+  margin: 0;
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(12px, 24px, $whiteColor);
+  }
 }

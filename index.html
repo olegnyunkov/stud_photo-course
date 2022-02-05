@@ -12,34 +12,33 @@
   <header class="header">
     <img src="./images/logo.svg" alt="Лого" class="header__logo">
     <nav class="header__menu">
-      <a href="#" class="header__link">Композиция</a>
-      <a href="#" class="header__link">Камера</a>
-      <a href="#" class="header__link">Поиск заказов</a>
+      <a href="#composition" class="header__link">Композиция</a>
+      <a href="#camera" class="header__link">Камера</a>
+      <a href="#order" class="header__link">Поиск заказов</a>
     </nav>
     <button class="header__menubtn" type="menu"></button>
   </header>
 
   <main class="content">
     <section class="head">
-      <div class="head__info">
         <h1 class="head__title">Курс по фотографии</h1>
         <p class="head__text">Фотография в природных условиях, уроки по композиции и по пользованию камерой.</p>
         <a href="#" class="head__link">Подробнее</a>
-      </div>
-      <img src="./images/forest.png" alt="Лес" class="head__image">
+        <img src="./images/forest.png" alt="Лес" class="head__image">
     </section>
 
-    <section class="composition">
+    <section class="composition" id="composition">
       <div class="composition__main">
-        <div class="composition__info">
-          <h2 class="composition__title">КОМПОЗИЦИЯ</h2>
-          <h3 class="composition__subtitle">Изучите композицию</h3>
+        <h2 class="composition__title">КОМПОЗИЦИЯ</h2>
+        <h3 class="composition__subtitle">Изучите композицию</h3>
+        <div>
           <p class="composition__text">Вы изучите гармоничное размещение всех элементов изображения на снимке.</p>
-          <p class="composition__text">Изучите композицию интуитивную
-            и какие-то определённые законы.</p>
-          <a href="#" class="head__link">Записаться!</a>
+          <p class="composition__text">Изучите композицию интуитивную и какие-то определённые законы.</p>
         </div>
-        <img src="./images/forest_road.png" alt="Дорога в лесу" class="head__image">
+        <a href="#" class="head__link">Записаться!</a>
+        <div class="composition__image">
+          <img src="./images/forest_road.png" alt="Дорога в лесу" class="composition__photo">
+        </div>
       </div>
       <div class="composition__rules">
         <p class="composition__rules-text">Правило третей, при котором нужно распологать объекты на пересечениях.</p>
@@ -49,43 +48,41 @@
       </div>
     </section>
 
-    <section class="camera">
-      <div class="camera__info">
-        <h2 class="camera__title">КАМЕРА</h2>
-        <h3 class="camera__subtitle">Настройка Съемка Обработка</h3>
-        <p class="camera__review">отзывы про часть о камерах:</p>
+    <section class="camera" id="camera">
+      <h2 class="camera__title">КАМЕРА</h2>
+      <h3 class="camera__subtitle">Настройка Съемка Обработка</h3>
+      <p class="camera__review">отзывы про часть о камерах:</p>
+      <div>
         <p class="camera__review-text">на этом курсе я научился пользоватся камерой, как настоящий профессионал!</p>
         <p class="camera__review-person">Питер, водитель.</p>
-        <p class="camera__review-profile">@piter123</p>
+        <p class="camera__review-profile camera__review-profile-bordered">@piter123</p>
       </div>
-      <div class="camera__photo">
-        <img src="./images/deep_forest.png" alt="Фото в лесу">
+      <div>
         <p class="camera__review-text">супер крутой курс! на части про фотики я стал разбираться в предназначении кнопок</p>
         <p class="camera__review-person">Джон, спортсмен.</p>
         <p class="camera__review-profile">@john_sport</p>
       </div>
+      <div class="camera__image">
+        <img src="./images/deep_forest.png" alt="Фото в лесу" class="camera__photo">
+      </div>
     </section>
 
-    <section class="order">
-      <div class="order__photo">
+    <section class="order" id="order">
         <h2 class="order__title">ПОИСК ЗАКАЗОВ</h2>
         <h3 class="order__subtitle">Научим находить заказы! </h3>
-        <img src="./images/tree.png" alt="Дерево">
-      </div>
-      <div class="order__info">
+        <img src="./images/tree.png" alt="Дерево" class="order__image">
         <p class="order__text">Мы научим вас искать заказы на всяких фриланс биржах, а когда вы сделаете крутое портфолио, мы поможем найти постоянную работу.</p>
         <a href="#" class="head__link order__link">Записаться!</a>
-      </div>
     </section>
 
     <section class="sign">
       <img src="./images/arrow.svg" class="sign__arrow" alt="Стрелка">
       <div class="sign__info">
         <h2 class="sign__title">Записаться! Сейчас!</h2>
-        <div class="sign__input">
+        <form class="sign__input">
           <input class="sign__email" type="email" placeholder="Ваша почта">
           <button class="sign__button" type="submit" required>Записаться!</button>
-        </div>
+        </form>
       </div>
     </section>
   </main>
@@ -93,5 +90,19 @@
   <footer class="footer">
     <p class="footer__text">2021 Photo-lessons.</p>
   </footer>
+
+  <section class="popup">
+    <div class="popup__menu">
+      <nav class="popup__links">
+        <a href="#composition" class="popup__link">Композиция</a>
+        <a href="#camera" class="popup__link">Камера</a>
+        <a href="#order" class="popup__link">Поиск заказов</a>
+      </nav>
+      <img src="./images/logo.svg" alt="Стрелка" class="popup__logo">
+      <button class="popup__closebtn"></button>
+    </div>
+  </section>
+
+  <script src="./scripts/script.js"></script>
 </body>
 </html>

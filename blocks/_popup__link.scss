@@ -1,0 +1,17 @@
+.popup__link {
+  text-decoration: none;
+  margin-right: 40px;
+  @include font(16px, 24px, $whiteColor);
+
+  &:hover {
+    font-weight: 700;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    margin: 12px auto 0;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+}

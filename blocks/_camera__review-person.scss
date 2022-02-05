@@ -1,4 +1,9 @@
 .camera__review-person {
   @include font(18px, 28px, $whiteColor);
   margin: 0 0 10px;
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(14px, 20px, $whiteColor);
+    margin: 0 0 6px;
+  }
 }

@@ -1,3 +1,13 @@
 .composition__main {
-  @include section;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(4, minmax(min-content, max-content));
+  justify-content: space-between;
+  margin: 0 0 100px 0;
+
+  @media screen and (max-width: $tabScreen) {
+    grid-template-columns: repeat(1, minmax(min-content, max-content));
+    grid-template-rows: repeat(6, minmax(min-content, max-content));
+    margin: 0 0 80px 0;
+  }
 }
