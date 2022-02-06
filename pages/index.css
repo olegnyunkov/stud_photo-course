@@ -166,7 +166,7 @@
   }
 }
 
-.head__link {
+.linkbtn {
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -180,11 +180,11 @@
   background-color: #fff;
   max-width: 228px;
 }
-.head__link:hover {
+.linkbtn:hover {
   font-weight: 500;
 }
 @media screen and (max-width: 660px) {
-  .head__link {
+  .linkbtn {
     font-size: 14px;
     line-height: 28px;
     font-weight: 400;
@@ -270,7 +270,7 @@
   line-height: 64px;
   font-weight: 400;
   color: #000;
-  max-width: 403px;
+  max-width: 453px;
   margin: 0 0 100px;
 }
 @media screen and (max-width: 1024px) {
@@ -447,7 +447,7 @@
   font-weight: 400;
   color: #fff;
   margin: 0 0 359px;
-  max-width: 617px;
+  max-width: 690px;
 }
 @media screen and (max-width: 1024px) {
   .camera__subtitle {
