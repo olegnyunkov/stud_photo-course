@@ -1,0 +1,8 @@
+.camera__review-profile-bordered {
+
+  @media screen and (max-width: $tabScreen) {
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+  }
+}

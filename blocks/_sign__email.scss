@@ -1,0 +1,21 @@
+.sign__email {
+  margin: 0 0 0 50px;
+  width: 348px;
+  height: 50px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px 0px 0px 8px;
+  @include font(14px, 24px);
+  font-family: inherit;
+  padding-left: 20px;
+  cursor: pointer;
+
+  @media screen and (max-width: $tabScreen) {
+    margin: 0;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    width: 175px;
+    @include font(11px, 24px);
+  }
+}

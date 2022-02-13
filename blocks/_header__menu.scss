@@ -1,0 +1,9 @@
+.header__menu {
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: $tabScreen) {
+    display: none;
+  }
+}
+

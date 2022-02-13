@@ -1,0 +1,12 @@
+.popup__menu {
+  padding: 28px 40px;
+  background-color: $headColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: $mobScreen) {
+    padding: $mobBlockPadding;
+  }
+  }
+

@@ -1,0 +1,9 @@
+.head__title {
+  @include font(100px, 110px);
+  margin: 0 0 60px;
+  max-width: 624px;
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(47px, 56px)
+  }
+}

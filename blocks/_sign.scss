@@ -1,0 +1,15 @@
+.sign {
+  padding: $blockPadding;
+  display: flex;
+  background-color: $headColor;
+  justify-content: flex-start;
+  padding-bottom: 36px;
+
+  @media screen and (max-width: $tabScreen) {
+    padding: $tabBlockPadding;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    padding: $mobBlockPadding;
+  }
+}

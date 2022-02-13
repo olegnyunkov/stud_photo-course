@@ -1,0 +1,7 @@
+.camera__photo {
+  max-width: 100%;
+
+  @media screen and (max-width: $tabScreen) {
+    width: 688px;
+  }
+}

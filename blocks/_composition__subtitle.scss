@@ -1,0 +1,13 @@
+.composition__subtitle {
+  @include font(64px, 64px);
+  max-width: 453px;
+  margin: 0 0 100px;
+
+  @media screen and (max-width: $tabScreen) {
+    margin: 0 0 60px;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(30px, 38px);
+  }
+}

@@ -1,0 +1,12 @@
+.footer {
+  padding: $blockPadding;
+  background-color: $headColor;
+
+  @media screen and (max-width: $tabScreen) {
+    padding: $tabBlockPadding;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    padding: $mobBlockPadding;
+  }
+}

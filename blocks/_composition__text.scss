@@ -1,0 +1,31 @@
+.composition__text {
+  @include font(18px, 28px);
+  max-width: 400px;
+  margin: 0 0 20px 0;
+
+  &:last-of-type {
+    margin-bottom: 195px;
+  }
+
+  @media screen and (max-width: $tabScreen) {
+    &:first-of-type {
+      margin: 60px 0 20px 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 60px;
+    }
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(14px, 18px);
+
+    &:first-of-type {
+      margin: 60px 0 36px 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 30px;
+    }
+  }
+}

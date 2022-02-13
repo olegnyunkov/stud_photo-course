@@ -1,0 +1,9 @@
+.order__link {
+  margin: 0 0 0 312px;
+  grid-row: 4/5;
+
+  @media screen and (max-width: $tabScreen) {
+    grid-row: 5/6;
+    margin: 0;
+  }
+}

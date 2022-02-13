@@ -1,0 +1,14 @@
+.header__menubtn {
+  display: none;
+  background-image: url(./../images/menu.svg);
+  background-size: contain;
+  background-color: $headColor;
+  width: 32px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+
+  @media screen and (max-width: $tabScreen) {
+    display: block;
+  }
+}

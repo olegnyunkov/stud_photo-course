@@ -1,0 +1,14 @@
+.camera__review {
+  @include font(18px, 28px, $whiteColor);
+  margin: 0;
+  text-transform: uppercase;
+
+  @media screen and (max-width: $tabScreen) {
+    margin: 0 0 180px;
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    margin: 0 0 60px;
+    @include font(14px, 20px, $whiteColor);
+  }
+}

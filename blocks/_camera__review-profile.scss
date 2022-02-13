@@ -1,0 +1,12 @@
+.camera__review-profile {
+  @include font(14px, 24px, $whiteColor);
+  margin: 0;
+
+  @media screen and (max-width: $tabScreen) {
+
+  }
+
+  @media screen and (max-width: $mobScreen) {
+    @include font(12px, 12px, $whiteColor);
+  }
+}

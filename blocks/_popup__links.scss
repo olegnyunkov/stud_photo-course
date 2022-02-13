@@ -1,0 +1,9 @@
+.popup__links {
+
+  @media screen and (max-width: $mobScreen) {
+  display: flex;
+  flex-direction: column;
+  order: 0;
+  margin: 56px auto 6px;
+  }
+}

@@ -1,0 +1,12 @@
+.popup__closebtn {
+  background-image: url(./../images/close_button.svg);
+  background-size: 140%;
+  background-position: center;
+  background-color: $headColor;
+  width: 27px;
+  height: 27px;
+  border: none;
+  padding: 0;
+  align-self: flex-start;
+  cursor: pointer;
+  }
